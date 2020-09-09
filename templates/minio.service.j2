@@ -14,9 +14,6 @@ StartLimitBurst=5
 [Service]
 WorkingDirectory=/usr/local/
 
-User={{ minio_user }}
-Group={{ minio_group }}
-
 PermissionsStartOnly=true
 
 EnvironmentFile={{ minio_server_envfile }}
